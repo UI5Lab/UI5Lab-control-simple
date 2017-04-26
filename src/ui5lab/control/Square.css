@@ -1,0 +1,9 @@
+.ui5labSquare {
+	display: block;
+	border: 1px solid cyan;
+	background-color: #ccefef;
+	margin: 1rem;
+	text-align: center;
+	vertical-align: middle;
+	display:table-cell;
+}
