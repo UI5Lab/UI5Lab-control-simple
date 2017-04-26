@@ -4,6 +4,6 @@
 	background-color: #ccefef;
 	margin: 1rem;
 	text-align: center;
-	vertical-align: middle;
-	display:table-cell;
+	font-weight: bold;
+	display:inline-block;
 }
