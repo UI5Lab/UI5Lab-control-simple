@@ -11,3 +11,11 @@ Feel free to adopt!
 [Control page](src/ui5lab/control/index.html) An HTML page instantiating the control
 
 [Test page](test/ui5lab/control/index.html) A simple QUnit test
+
+#### Run tests
+
+`npm install`
+
+`npm run serve`
+
+`npm test`
