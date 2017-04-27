@@ -8,7 +8,7 @@
   },
   "scripts": {
     "serve": "http-server -p 8080 .",
-    "test": "node-qunit-phantomjs http://127.0.0.1:8000/test/ui5lab/control/Square.qunit.html"
+    "test": "node-qunit-phantomjs http://127.0.0.1:8080/test/ui5lab/control/Square.qunit.html"
   },
   "repository": {
     "type": "git",
