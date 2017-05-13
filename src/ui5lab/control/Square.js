@@ -6,7 +6,17 @@ function(jQuery, Control) {
 	"use strict";
 
 	/**
-	 * Constructor for a new Square
+	 * Constructor for a new Square control.
+	 *
+	 * @param {string} [sId] id for the new control, generated automatically if no id is given
+	 * @param {object} [mSettings] initial settings for the new control
+	 *
+	 * @class
+	 * Squares are awesome geometrical shapes that are underepresented in today's modern UIs
+	 * @extends sap.ui.core.Control
+	 *
+	 * @public
+	 * @alias ui5lab.geometry.Square
 	 */
 	var oSquare = Control.extend("ui5lab.control.Square", {
 		/**

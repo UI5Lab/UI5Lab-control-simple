@@ -11,3 +11,7 @@ Feel free to adopt!
 [Control page](src/ui5lab/control/index.html) An HTML page instantiating the control
 
 [Test page](test/ui5lab/control/index.html) A simple QUnit test
+
+### Contributing
+
+Instructions how to connect to the community and contribute to the UI5lab project can be found in the [main repository](https://github.com/openui5/UI5Lab/)!
