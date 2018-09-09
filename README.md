@@ -7,7 +7,7 @@ UI5Lab is a community driven repository for UI5 Custom Control Libraries. It's p
 # UI5Lab-control-simple
 
 This repository contains a simple square control that can be used for testing custom controls.
-Have a look at our [documentation](http://ui5lab.io/docs/) for more details. 
+Have a look at our [documentation](http://ui5lab.io/docs/) for more details.
 
 #### Setup
 
@@ -15,7 +15,7 @@ Run the following commands to test or develop this project:
 
 1. Install node.js (get it from [nodejs.org](http://nodejs.org/)).
 
-	> **Note:** If working behind a proxy, you need to configure it properly (HTTP_PROXY / HTTPS_PROXY / NO_PROXY environment variables)
+> **Note:** If working behind a proxy, you need to configure it properly (HTTP_PROXY / HTTPS_PROXY / NO_PROXY environment variables)
 
 2. Clone the repository and navigate into it
 ```bash
@@ -31,15 +31,15 @@ npm install
 4. Start a local web server
 
 ```bash
-npm run serve
+npm start
 ```
 
 > **Note:** you can run the control tests with ```npm test```
 
-10. Choose one of the following entry points to open the app
+5. Choose one of the following entry points to see the control in action
 
- * [Control page](src/ui5lab/control/index.html) An HTML page instantiating the control
- * [Test page](test/ui5lab/control/Square.qunit.html) A simple QUnit test
+ * [Control test page](test-resources/ui5lab/control/Square.html) An HTML page instantiating the control
+ * [QUnit test page](test-resources/ui5lab/control/Square.qunit.html) A simple QUnit test
 
 # Directions
 
@@ -51,7 +51,7 @@ npm run serve
 # Troubleshooting
 
 Issues can be created either in this repository or in any of the contributor repositories depending on where the error came from.
-Be sure to include enough details and context to reproduce the issue and follow up with you. 
+Be sure to include enough details and context to reproduce the issue and follow up with you.
 
 # Contact
 

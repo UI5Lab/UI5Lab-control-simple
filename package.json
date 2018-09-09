@@ -2,21 +2,23 @@
   "name": "ui5lab-control-simple",
   "version": "1.0.1",
   "description": "A simple square control that can be used for testing",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/UI5Lab/UI5Lab-app-simple.git"
+    "url": "https://github.com/UI5Lab/UI5Lab-control-simple.git"
   },
   "license": "Apache-2.0",
   "homepage": "https://ui5lab.io",
   "scripts": {
-    "serve": "http-server -p 8080 .",
-    "test": "node-qunit-phantomjs http://127.0.0.1:8080/test/ui5lab/control/Square.qunit.html"
+    "start": "ui5 serve",
+    "test": "node-qunit-phantomjs http://localhost:8080/test-resources/ui5lab/control/Square.qunit.html"
   },
   "dependencies": {
-    "npm": "^6.4.1"
+    "@openui5/sap.ui.core": "^1.56.4",
+    "@openui5/themelib_sap_belize": "^1.56.4"
   },
   "devDependencies": {
-    "http-server": "^0.9.0",
+    "@ui5/cli": "^0.2.0",
     "node-qunit-phantomjs": "^1.5.0"
   }
 }

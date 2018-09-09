@@ -1,8 +1,7 @@
 sap.ui.define([
 	'jquery.sap.global',
 	'sap/ui/core/Control'
-],
-function(jQuery, Control) {
+], function(jQuery, Control) {
 	"use strict";
 
 	/**
@@ -68,5 +67,4 @@ function(jQuery, Control) {
 	});
 
 	return oSquare;
-			
 });
